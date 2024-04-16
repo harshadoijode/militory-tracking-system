@@ -1,0 +1,99 @@
+/* CSS Document */
+body, html {
+  height: 100%;
+}
+
+body {
+	
+	background-image: url(img/bg.jpg);
+	 background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+input[type=email] {
+  width: auto;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=text], select {
+  width: auto;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: auto;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=button] {
+  width: 150px;
+  background-image: linear-gradient(red, black);
+  color: white;
+ 
+  margin: 8px 0;
+  border: 1;
+  border-color:white;
+  border-radius: 20px;
+  cursor: pointer;
+  height:40px;
+}
+input[type=button]:hover {
+  background-image: linear-gradient(black, blue);
+}
+
+input[type=submit]  {
+  width: auto;
+  background-image: linear-gradient(red, black);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1;
+  border-color:white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-image: linear-gradient(black, blue);
+}
+
+
+input[type=reset]  {
+  width: auto;
+  background-image: linear-gradient(red, black);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 1;
+  border-color:white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+input[type=reset]:hover {
+  background-image: linear-gradient(black, blue);
+}
+
+body,td,th {
+	color: #000033;
+	font-weight: bold;
+}
+
+
+
